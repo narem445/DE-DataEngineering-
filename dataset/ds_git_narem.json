@@ -1,0 +1,22 @@
+{
+	"name": "ds_git_narem",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_narem_git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "narem445/DE-DataEngineering-/refs/heads/main/dgda_drug_database_data/AyurvedicDrugDatabase/Ayurvedic_Drug_Database.csv?token=GHSAT0AAAAAADBOVF64ST4QEPTM2W4DIW2OZ7LMTZA"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
