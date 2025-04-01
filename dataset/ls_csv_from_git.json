@@ -1,0 +1,22 @@
+{
+	"name": "ls_csv_from_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_http_git_narem445",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/narem445/DE-DataEngineering-/main/dgda_drug_database_data/drug_data.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
