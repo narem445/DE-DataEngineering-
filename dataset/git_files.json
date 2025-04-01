@@ -1,0 +1,22 @@
+{
+	"name": "git_files",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_Http_files_copy_from_git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "repos/narem445/DE-DataEngineering-/contents/dgda_drug_database_data"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
