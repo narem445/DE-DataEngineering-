@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "reading sample xml data",
+				"name": "reading sample books xml data",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
