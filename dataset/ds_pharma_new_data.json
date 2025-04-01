@@ -2,7 +2,7 @@
 	"name": "ds_pharma_new_data",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "ls_kaggle_http",
+			"referenceName": "ls_narem_git",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,12 +10,12 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "datasets/shuvokumarbasak2030/drug-pharma-new-dataset"
+				"relativeUrl": "narem445/DE-DataEngineering-/tree/main/dgda_drug_database_data"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
-			"firstRowAsHeader": true,
-			"quoteChar": "\""
+			"firstRowAsHeader": false,
+			"quoteChar": null
 		},
 		"schema": []
 	}
