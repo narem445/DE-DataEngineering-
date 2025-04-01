@@ -1,0 +1,22 @@
+{
+	"name": "ds_pharma_new_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_kaggle_http",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "datasets/shuvokumarbasak2030/drug-pharma-new-dataset"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
