@@ -78,8 +78,24 @@
 					},
 					"firstRowOnly": false
 				}
+			},
+			{
+				"name": "ForEach1",
+				"type": "ForEach",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
+				"dependsOn": [],
+				"userProperties": []
 			}
 		],
+		"parameters": {
+			"Lookup Activity": {
+				"type": "String"
+			},
+			"output": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
