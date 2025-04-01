@@ -1,0 +1,9 @@
+{
+	"name": "mydev-test-df-mahesh",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "72cb01e6-43ef-4b35-9605-c305ffef1ff1",
+		"tenantId": "c9cdf087-6884-4d98-8758-8b203c07a63c"
+	}
+}
