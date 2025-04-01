@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "/narem445/DE-DataEngineering-/main/dgda_drug_database_data/drug_data.csv"
+				"relativeUrl": "narem445/DE-DataEngineering-/main/dgda_drug_database_data/drug_data.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
