@@ -8,9 +8,6 @@
 		"parameters": {
 			"name": {
 				"type": "string"
-			},
-			"download_url": {
-				"type": "string"
 			}
 		},
 		"annotations": [],
