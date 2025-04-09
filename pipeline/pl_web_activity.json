@@ -1,0 +1,39 @@
+{
+	"name": "pl_web_activity",
+	"properties": {
+		"activities": [
+			{
+				"name": "Find weather report of a city",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"method": "GET",
+					"url": "http://api.weatherstack.com/current",
+					"connectVia": {
+						"referenceName": "AutoResolveIntegrationRuntime",
+						"type": "IntegrationRuntimeReference"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"cityName": {
+				"type": "string",
+				"defaultValue": "Kolkata"
+			},
+			"accessKey": {
+				"type": "string",
+				"defaultValue": "7b1a503846c18a56136f8ab3c90d5017"
+			}
+		},
+		"annotations": []
+	}
+}
