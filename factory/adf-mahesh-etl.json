@@ -1,0 +1,9 @@
+{
+	"name": "adf-mahesh-etl",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b6b0100c-42ba-4d5a-8172-ff72cb521659",
+		"tenantId": "30a3270f-6f7a-4099-bb07-12e53c9df613"
+	}
+}
