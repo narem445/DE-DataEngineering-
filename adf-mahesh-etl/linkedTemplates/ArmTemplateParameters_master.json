@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-mahesh-etl"
+		},
+		"AzureBlobStorage1httpendpoint_connectionString": {
+			"value": ""
+		},
+		"datalakegit_accountKey": {
+			"value": ""
+		},
+		"ls_dbs_notebook_accessToken": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://azmahesh-kv.vault.azure.net/"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://api.github.com/repos/narem445/DE-DataEngineering-/contents/dgda_drug_database_data"
+		},
+		"HttplinkedService_properties_typeProperties_url": {
+			"value": "https://github.com"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://api.github.com/repos/narem445/DE-DataEngineering-/contents/dgda_drug_database_data"
+		},
+		"datalakegit_properties_typeProperties_url": {
+			"value": "https://awsstoragedatalaketest.dfs.core.windows.net/"
+		},
+		"ls_Http_files_copy_from_git_properties_typeProperties_url": {
+			"value": "https://api.github.com/"
+		},
+		"ls_http_git_narem445_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_kaggle_http_properties_typeProperties_url": {
+			"value": "https://www.kaggle.com"
+		},
+		"ls_narem_git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
