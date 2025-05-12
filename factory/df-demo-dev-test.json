@@ -1,0 +1,9 @@
+{
+	"name": "df-demo-dev-test",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5e8da8d4-b643-4569-9cf6-9767799b3106",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}
