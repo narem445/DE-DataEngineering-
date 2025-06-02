@@ -34,6 +34,9 @@
 				"defaultValue": "7b1a503846c18a56136f8ab3c90d5017"
 			}
 		},
+		"folder": {
+			"name": "Demo"
+		},
 		"annotations": []
 	}
 }
